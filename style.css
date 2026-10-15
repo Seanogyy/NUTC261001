@@ -1,0 +1,35 @@
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.site-header {
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  padding: 16px 8%;
+  text-align: center;
+  background: #17324d;
+  color: white;
+}
+
+.site-header h1 { margin: 0 0 8px; }
+.site-header a {
+  margin: 0 12px;
+  color: white;
+  text-decoration: none;
+}
+
+.event-card {
+  width: 300px;
+  padding: 20px;
+  border: 5px solid #17324d;
+  margin: 24px auto;
+  background: #f7fbff;
+  border-radius: 12px;
+  box-shadow: 0 10px 24px rgba(23, 50, 77, 0.08);
+}
+
+/* 實際佔用：350px */
